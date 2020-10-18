@@ -1,0 +1,22 @@
+Package: theorymapper
+Type: Package
+Title: Functions for Collating Academic Network Data
+Version: 0.1.0
+Authors@R: person("Mark", "Brisbane", email = "mark@conspire.org.au",
+                  role = c("aut", "cre"))
+Description: Helper functions for the data team of the theoryofchange.wiki
+License: GPLv3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.0
+Imports:
+  magrittr,
+  dplyr,
+  purrr,
+  stringr,
+  rvest,
+  xml2,
+  citecorp,
+  yaml,
+  progress,
+  here
